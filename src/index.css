@@ -5,9 +5,99 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #e1e1e145;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav-bar {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  box-shadow: 0 4px 6px -6px #222;
+  display: flex;
+}
+
+.word {
+  display: flex;
+}
+
+.food{
+  font-weight: bold;
+  color: brown;
+}
+
+.best{
+  font-weight: lighter;
+}
+
+.hero {
+  padding: 2rem;
+  
+}
+
+button {
+  border-radius: 30px;
+  height: 50px;
+  width: 150px;
+  font-weight: bold;
+  border-color: #222;
+  border-width: 1px;
+
+}
+
+.increment {
+  background-color: rgba(73, 207, 20, 0.59);
+  margin-right: 100px;
+}
+
+.increment:hover {
+  background-color: rgba(67, 180, 22, 0.761);
+  margin-right: 100px;
+  transform: scale(1.2);
+  transition-duration: .020s;
+}
+
+.decrement:hover {
+  background-color: rgba(23, 71, 130, 0.821);
+  transform: scale(1.2);
+  transition-duration: .020s;
+}
+
+.decrement {
+  background-color: rgba(38, 102, 180, 0.484);
+}
+
+.buttons{ 
+  margin-bottom: 50px;
+}
+
+p {
+  font-weight: bold;
+  font-size: 72px;
+}
+
+.reset {
+  background-color: #cb1616c4;
+}
+
+.reset:hover {
+  background-color: #981212df;
+  transform: scale(1.2);
+  transition-duration: .020s;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 10px 6px #222;
+  background-color: brown;
 }
